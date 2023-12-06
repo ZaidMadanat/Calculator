@@ -1,1 +1,2 @@
-Final project for The Odin Project
+Calculator project using all of what I learned in the foundations project. My main focus for this project was making sure I used js as much as possible, and increased my understanding 
+in event listeners, arrays, and functions. 

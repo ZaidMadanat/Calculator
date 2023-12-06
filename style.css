@@ -14,11 +14,13 @@ p {
     margin-top: 20px;
     text-align: center;
     font-size: 38px;
-    font-weight: bold;
+    font-weight: bold
 }
 #calc{ 
     width: 320px;
+    max-width: 320px;
     border: 0.2rem solid white;
+    margin-top: 5rem;
 }
 .display { 
     height: 100px;
@@ -42,13 +44,13 @@ p {
     border: none; 
     width: 75%;
     height: 80px;
-    text-align: right;
+    text-align: left;
     line-height: 70px;
     overflow: hidden; 
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 button { 
     height: 80px;
