@@ -21,21 +21,34 @@ p {
     border: 0.2rem solid white;
 }
 .display { 
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .backspace { 
     cursor: pointer;
+    height: 100px;
 }
 .button-row { 
     display: flex;
+    justify-content: space-between;
+}
+.calc-button{ 
+    flex: 1;
+    margin: 0;
 }
 .box { 
-    flex-grow: 1;
     border: none; 
-    text-align: right; 
-    font-size: 2rem;
+    width: 75%;
+    height: 80px;
+    text-align: right;
+    line-height: 70px;
+    overflow: hidden; 
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 button { 
     height: 80px;
